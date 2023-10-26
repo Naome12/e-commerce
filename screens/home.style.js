@@ -22,7 +22,7 @@ location:{
 },
 cartCount:{
     position:"absolute",
-    bottom:12,
+    bottom:16,
     width:16,
     height:16,
     borderRadius:8,

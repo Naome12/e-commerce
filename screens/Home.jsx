@@ -1,10 +1,10 @@
-import { TouchableOpacity,Text, View } from 'react-native';
+import { TouchableOpacity,Text, View ,ScrollView} from 'react-native';
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import styles from './home.style';
 import { Ionicons } from '@expo/vector-icons';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { ScrollView } from 'react-native-gesture-handler';
+import { Fontisto } from '@expo/vector-icons';
+import { Welcome } from '../components';
 const Home = () => {
   return (
     <SafeAreaView>
@@ -17,11 +17,14 @@ const Home = () => {
               <Text style={styles.cartNumber}>8</Text>
             </View>
             <TouchableOpacity>
-            <MaterialCommunityIcons name="shopping" size={24} color="black" />
+            <Fontisto name="shopping-bag" size={24} color="black" />
             </TouchableOpacity>
           </View>
         </View>
       </View>
+      <ScrollView>
+      <Welcome/>
+      </ScrollView>
     </SafeAreaView>
   );
 }
