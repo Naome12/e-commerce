@@ -16,6 +16,7 @@ const Welcome = () => {
     <Feather name='search' size={24} style={styles.searchIcon}/>
     <View style={styles.searchWrapper}></View>
     </TouchableOpacity>
+    <Text></Text>
     </View>
     </View>
   )
