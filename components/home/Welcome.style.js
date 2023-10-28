@@ -7,7 +7,7 @@ const styles= StyleSheet.create({
     },
     welcomeTxt:(color,top)=>({
         fontFamily:"bold",
-        fontSize:SIZES.xxlarge-5,
+        fontSize:SIZES.xxlarge-10,
         marginTop:top,
         color:color,
         marginHorizontal:12
