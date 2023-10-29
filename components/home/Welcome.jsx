@@ -8,6 +8,10 @@ import { useNavigation } from '@react-navigation/native'
 
 const Welcome = () => {
   const navigation=useNavigation();
+  const navigateToSearchScreen = () => {
+    console.log('Navigating to Search screen');
+    navigation.navigate('Search');
+  };
   return (
     <View>
     <View style={styles.container}>
@@ -21,7 +25,7 @@ const Welcome = () => {
     <View style={styles.searchWrapper}>
     <TextInput style={styles.searchInput}
     value=""
-    onPressIn={()=>navigation.navigate("Search")}
+    onPressIn={navigateToSearchScreen}
     placeholder="What are you looking for"
     />
     </View>

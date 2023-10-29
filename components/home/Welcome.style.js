@@ -10,12 +10,13 @@ const styles= StyleSheet.create({
         fontSize:SIZES.xxlarge-10,
         marginTop:top,
         color:color,
-        marginHorizontal:SIZES.small +2,
+        marginHorizontal:SIZES.small ,
     }),
     searchContainer:{
         flexDirection:"row",
         justifyContent:"center",
         alignContent:"center",
+        marginHorizontal:SIZES.small,
         backgroundColor:COLORS.secondary,
         borderRadius:SIZES.medium,
         marginVertical:SIZES.medium,
@@ -23,7 +24,7 @@ const styles= StyleSheet.create({
     },
     searchIcon:{
         marginTop:SIZES.small,
-        marginHorizontal:SIZES.small,
+        marginHorizontal:SIZES.small-2,
         color:COLORS.gray
     },
     searchWrapper:{
