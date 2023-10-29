@@ -10,18 +10,20 @@ const styles= StyleSheet.create({
         fontSize:SIZES.xxlarge-10,
         marginTop:top,
         color:color,
-        marginHorizontal:12
+        marginHorizontal:SIZES.small +2,
     }),
     searchContainer:{
-        flex:"row",
+        flexDirection:"row",
         justifyContent:"center",
         alignContent:"center",
         backgroundColor:COLORS.secondary,
         borderRadius:SIZES.medium,
-        marginVertical:SIZES.medium
+        marginVertical:SIZES.medium,
+        height:50,
     },
     searchIcon:{
-        marginHorizontal:10,
+        marginTop:SIZES.small,
+        marginHorizontal:SIZES.small,
         color:COLORS.gray
     },
     searchWrapper:{
@@ -29,6 +31,20 @@ const styles= StyleSheet.create({
         backgroundColor:COLORS.secondary,
         marginRight:SIZES.small,
         borderRadius:SIZES.small,
+    },
+    searchInput:{
+        fontFamily:"regular",
+        width:"100%",
+        height:"100%",
+        paddingHorizontal:SIZES.small
+    },
+    searchBtn:{
+        width:50,
+        height:"100%",
+        borderRadius: SIZES.small,
+        justifyContent:"center",
+        alignItems:"center",
+        backgroundColor:COLORS.primary
     }
 })
 
