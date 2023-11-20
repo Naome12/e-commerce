@@ -31,7 +31,8 @@
     "react-native-safe-area-context": "4.6.3",
     "react-native-screens": "3.22.0",
     "react-native-snap-carousel": "3.9.1",
-    "react-native-web": "~0.19.6",
+    "react-native-swiper": "^1.6.0",
+    "react-native-web": "^0.19.9",
     "react-native-webview": "13.2.2"
   },
   "devDependencies": {
