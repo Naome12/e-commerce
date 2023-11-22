@@ -11,6 +11,10 @@ const styles = StyleSheet.create({
     header:{
         flexDirection:"row",
         justifyContent:'space-between',
+    },
+    headerTitle:{
+        fontFamily:"semibold",
+        fontSize:SIZES.xlarge-2,
     }
 })
 
