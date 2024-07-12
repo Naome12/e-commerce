@@ -56,7 +56,8 @@ const styles = StyleSheet.create({
     },
     ratingText:{
         color:COLORS.gray,
-        fontFamily:"medium"
+        fontFamily:"medium",
+        paddingHorizontal:SIZES.small,
     },
     price:{
         paddingHorizontal:10,
@@ -66,6 +67,58 @@ const styles = StyleSheet.create({
     priceWrapper:{
         backgroundColor:COLORS.secondary,
         borderRadius:SIZES.large,
+    },
+    descriptionWrapper:{
+        marginTop:SIZES.large+2,
+        marginHorizontal:SIZES.large,
+    },
+    description:{
+        fontFamily:"medium",
+        fontSize:SIZES.large-2,
+    },
+    descText:{
+        fontFamily:"regular",
+        fontSize:SIZES.small,
+        textAlign:"justify",
+        marginBottom:SIZES.small
+    },
+    location:{
+        flexDirection:"row",
+        justifyContent:"space-between",
+        padding:5,
+        borderRadius:SIZES.large,
+        alignItems:"center",
+        backgroundColor:COLORS.secondary,
+        marginHorizontal:12,
+    },
+    cartRow:{
+        paddingBottom:SIZES.small,
+        flexDirection:"row",
+        justifyContent:"space-between",
+        alignItems:"center",
+        width: SIZES.width-30 ,
+    },
+    cartBtn:{
+        width:SIZES.width*0.6,
+        backgroundColor:COLORS.black,
+        padding:SIZES.small/2,
+        borderRadius:SIZES.large,
+        marginLeft:8,
+    },
+    cartTitle:{
+        marginLeft:SIZES.small,
+        fontFamily:"regular",
+        fontSize:SIZES.medium,
+        color:COLORS.white,
+    },
+    addCart:{
+        width:37,
+        height:37,
+        borderRadius:50,
+        margin:SIZES.small,
+        backgroundColor:COLORS.black,
+        alignItems:"center",
+        justifyContent:"center"
     }
 })
 
